@@ -1,5 +1,4 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
 import LineAndCssVue from './components/canvas/LineAndCss.vue'
 import CanvasTranslate from './components/canvas/CanvasTranslate.vue'
 import CanvasSmell from './components/canvas/CanvasSmell.vue'
@@ -22,13 +21,13 @@ import canvasWgl001 from './components/canvas/canvasWgl001.vue'
 import CanvasBasic001 from './components/rough/CanvasBasic001.vue'
 import CanvasWintersweet from './components/rough/CanvasWintersweet.vue'
 import CanvasWintersweetRough from './components/rough/CanvasWintersweetRough.vue'
+
+
+import CanvasCompositing from './components/canvas/CanvasCompositing.vue'
 </script>
 
 <template>
-    <CanvasWintersweetRough></CanvasWintersweetRough>
-    <!-- <CanvasWintersweet></CanvasWintersweet> -->
-    <!-- <CanvasCircleSvgTwo /> -->
-    <!-- <CanvasCircle /> -->
+    <CanvasCompositing></CanvasCompositing>
 </template>
 
 <style>
