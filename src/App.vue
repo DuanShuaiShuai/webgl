@@ -21,13 +21,15 @@ import canvasWgl001 from './components/canvas/canvasWgl001.vue'
 import CanvasBasic001 from './components/rough/CanvasBasic001.vue'
 import CanvasWintersweet from './components/rough/CanvasWintersweet.vue'
 import CanvasWintersweetRough from './components/rough/CanvasWintersweetRough.vue'
-
-
 import CanvasCompositing from './components/canvas/CanvasCompositing.vue'
+
+import WebglCanvas001 from './components/3d/WebglCanvas001.vue'
+import WebglCanvas002 from './components/3d/WebglCanvas002.vue'
+import WebglCanvas003 from './components/3d/WebglCanvas003.vue'
 </script>
 
 <template>
-    <CanvasCompositing></CanvasCompositing>
+    <WebglCanvas003></WebglCanvas003>
 </template>
 
 <style>
